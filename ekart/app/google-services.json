@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "33013737984",
+    "project_id": "ekart-cd5a1",
+    "storage_bucket": "ekart-cd5a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33013737984:android:cd86dd24b933a9e4e246e5",
+        "android_client_info": {
+          "package_name": "com.example.ekart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33013737984-datiji8u3la6vuhu8ivrkrtgvktjtbo4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ekart",
+            "certificate_hash": "218df3819a7e4da4f5b699579d0b715943a9917d"
+          }
+        },
+        {
+          "client_id": "33013737984-ch7ku3p4m5v33c23036nqi4gtffq8v63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4m2y3s1RYEg2ksYXEHulu5JRG2rT17hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33013737984-ch7ku3p4m5v33c23036nqi4gtffq8v63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
