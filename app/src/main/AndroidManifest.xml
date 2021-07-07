@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.dhruva.shopping">
+    package="com.groceryStore.shopping">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -14,21 +14,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ekart"
         tools:replace="android:theme">
-        <activity android:name="com.dhruva.shopping.HomeActivity"
+        <activity android:name="com.groceryStore.shopping.HomeActivity"
 
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name="com.dhruva.shopping.SettinsActivity" />
-        <activity android:name="com.dhruva.shopping.SearchProductsActivity" />
-        <activity android:name="com.dhruva.shopping.RegisterActivity" />
-        <activity android:name="com.dhruva.shopping.ProductDetailsActivity" />
-        <activity android:name="com.dhruva.shopping.LoginActivity" />
-        <activity android:name="com.dhruva.shopping.ConfirmFinalOrderActivity" />
-        <activity android:name="com.dhruva.shopping.CartActivity" />
-        <activity android:name="com.dhruva.shopping.AdminUserProductsActivity" />
-        <activity android:name="com.dhruva.shopping.AdminNewOrdersActivity" />
-        <activity android:name="com.dhruva.shopping.AdminCategoryActivity" />
-        <activity android:name="com.dhruva.shopping.AdminAddNewProductActivity" />
-        <activity android:name="com.dhruva.shopping.MainActivity">
+        <activity android:name="com.groceryStore.shopping.SettinsActivity" />
+        <activity android:name="com.groceryStore.shopping.SearchProductsActivity" />
+        <activity android:name="com.groceryStore.shopping.RegisterActivity" />
+        <activity android:name="com.groceryStore.shopping.ProductDetailsActivity" />
+        <activity android:name="com.groceryStore.shopping.LoginActivity" />
+        <activity android:name="com.groceryStore.shopping.ConfirmFinalOrderActivity" />
+        <activity android:name="com.groceryStore.shopping.CartActivity" />
+        <activity android:name="com.groceryStore.shopping.AdminUserProductsActivity" />
+        <activity android:name="com.groceryStore.shopping.AdminNewOrdersActivity" />
+        <activity android:name="com.groceryStore.shopping.AdminCategoryActivity" />
+        <activity android:name="com.groceryStore.shopping.AdminAddNewProductActivity" />
+        <activity android:name="com.groceryStore.shopping.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

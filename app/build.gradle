@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.dhruva.shopping"
+        applicationId "com.groceryStore.shopping"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
