@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressDialog loadingBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         joinNowButton = (Button) findViewById(R.id.main_join_now_btn);

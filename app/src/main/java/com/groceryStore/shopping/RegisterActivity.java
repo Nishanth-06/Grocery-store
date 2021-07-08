@@ -29,6 +29,7 @@ public class RegisterActivity extends AppCompatActivity {
     private ProgressDialog loadingBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         CreateAccountButton = (Button) findViewById(R.id.register_btn);

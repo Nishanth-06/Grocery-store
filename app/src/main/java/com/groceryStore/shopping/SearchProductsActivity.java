@@ -32,6 +32,7 @@ public class SearchProductsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_products);
         inputText = findViewById(R.id.search_product_name);

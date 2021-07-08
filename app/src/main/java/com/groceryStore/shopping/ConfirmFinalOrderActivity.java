@@ -28,6 +28,7 @@ public class ConfirmFinalOrderActivity extends AppCompatActivity {
     private String totalAmount = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirm_final_order);
 

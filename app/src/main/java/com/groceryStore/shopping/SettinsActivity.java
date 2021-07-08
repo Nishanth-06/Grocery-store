@@ -45,6 +45,7 @@ public class SettinsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settins);
         storageProfilePrictureRef = FirebaseStorage.getInstance().getReference().child("Profile pictures");

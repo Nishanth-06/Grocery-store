@@ -28,6 +28,7 @@ public class AdminNewOrdersActivity extends AppCompatActivity {
     private DatabaseReference ordersRef;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_new_orders);
         ordersRef = FirebaseDatabase.getInstance().getReference().child("Orders");

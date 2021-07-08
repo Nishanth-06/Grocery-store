@@ -33,6 +33,7 @@ public class LoginActivity extends AppCompatActivity {
     private CheckBox chkBoxRememberMe;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         LoginButton = (Button) findViewById(R.id.login_btn);

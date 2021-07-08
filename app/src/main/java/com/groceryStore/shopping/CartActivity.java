@@ -39,6 +39,7 @@ public class CartActivity extends AppCompatActivity{
     private int overTotalPrice=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
         recyclerView = findViewById(R.id.cart_list);

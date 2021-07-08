@@ -26,6 +26,7 @@ public class AdminUserProductsActivity extends AppCompatActivity {
     private String userID = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_user_products);
         userID = getIntent().getStringExtra("uid");
