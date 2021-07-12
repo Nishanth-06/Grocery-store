@@ -30,26 +30,26 @@
         android:layout_marginRight="10dp">
 
         <ImageView
-            android:id="@+id/t_shirts"
+            android:id="@+id/grocery_staples"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:src="@drawable/rice3" />
         <ImageView
-            android:id="@+id/sports_t_shirts"
+            android:id="@+id/oils_and_others"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/oils"
             />
 
         <ImageView
-            android:id="@+id/female_dresses"
+            android:id="@+id/vegitables"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/vegetables"
             />
 
         <ImageView
-            android:id="@+id/sweathers"
+            android:id="@+id/eggs"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:src="@drawable/dairy"
@@ -66,28 +66,28 @@
         android:layout_marginTop="10dp">
 
         <ImageView
-            android:id="@+id/glasses"
+            android:id="@+id/sugar_and_others"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/dry"
             />
 
         <ImageView
-            android:id="@+id/purses_bags_wallets"
+            android:id="@+id/fruits"
             android:layout_width="90dp"
             android:layout_height="80dp"
             android:src="@drawable/juice"
             />
 
         <ImageView
-            android:id="@+id/hats_caps"
+            android:id="@+id/house_hold_items"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/cleaners"
             />
 
         <ImageView
-            android:id="@+id/shoes"
+            android:id="@+id/personnel_care"
             android:layout_width="70dp"
             android:layout_height="80dp"
             android:src="@drawable/personalcare"
@@ -106,28 +106,28 @@
         android:layout_marginTop="10dp">
 
         <ImageView
-            android:id="@+id/headphones_handfree"
+            android:id="@+id/baby_care"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/babyitems"
             />
 
         <ImageView
-            android:id="@+id/laptop_pc"
+            android:id="@+id/sweets_and_icecreams"
             android:layout_width="90dp"
             android:layout_height="80dp"
             android:src="@drawable/frozen"
             />
 
         <ImageView
-            android:id="@+id/watches"
+            android:id="@+id/chocolates"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/chocolate"
             />
 
         <ImageView
-            android:id="@+id/mobilephones"
+            android:id="@+id/gifts"
             android:layout_width="70dp"
             android:layout_height="80dp"
             android:src="@drawable/toys"
