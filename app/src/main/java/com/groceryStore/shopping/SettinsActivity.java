@@ -34,7 +34,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class SettinsActivity extends AppCompatActivity {
     private CircleImageView profileImageView;
-    private EditText fullNameEditText, userPhoneEditText, addressEditText;
+    private EditText fullNameEditText, userPhoneEditText, addressEditText,passwordEditText;
     private TextView profileChangeTextBtn,  closeTextBtn, saveTextButton;
 
     private Uri imageUri;
@@ -54,9 +54,11 @@ public class SettinsActivity extends AppCompatActivity {
         fullNameEditText = (EditText) findViewById(R.id.settings_full_name);
         userPhoneEditText = (EditText) findViewById(R.id.settings_phone_number);
         addressEditText = (EditText) findViewById(R.id.settings_address);
+        passwordEditText = (EditText) findViewById(R.id.settings_password);
         profileChangeTextBtn = (TextView) findViewById(R.id.profile_image_change_btn);
         closeTextBtn = (TextView) findViewById(R.id.close_settings_btn);
         saveTextButton = (TextView) findViewById(R.id.update_account_settings_btn);
+
 
         userInfoDisplay(profileImageView, fullNameEditText, userPhoneEditText, addressEditText);
 
@@ -103,6 +105,7 @@ public class SettinsActivity extends AppCompatActivity {
         userMap. put("name", fullNameEditText.getText().toString());
         userMap. put("address", addressEditText.getText().toString());
         userMap. put("phoneOrder", userPhoneEditText.getText().toString());
+        userMap. put("password", passwordEditText.getText().toString());
         ref.child(Prevalent.currentOnlineUser.getPhone()).updateChildren(userMap);
         startActivity(new Intent(SettinsActivity.this, HomeActivity.class));
         Toast.makeText(SettinsActivity.this, "Profile Info update successfully.", Toast.LENGTH_SHORT).show();
@@ -141,11 +144,15 @@ public class SettinsActivity extends AppCompatActivity {
         }
         else if (TextUtils.isEmpty(addressEditText.getText().toString()))
         {
-            Toast.makeText(this, "Name is address.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Address is address.", Toast.LENGTH_SHORT).show();
         }
         else if (TextUtils.isEmpty(userPhoneEditText.getText().toString()))
         {
-            Toast.makeText(this, "Name is mandatory.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Phone number is mandatory.", Toast.LENGTH_SHORT).show();
+        }
+        else if (TextUtils.isEmpty(passwordEditText.getText().toString()))
+        {
+            Toast.makeText(this, "Password is mandatory.", Toast.LENGTH_SHORT).show();
         }
         else if(checker.equals("clicked"))
         {
@@ -220,10 +227,12 @@ public class SettinsActivity extends AppCompatActivity {
                         String name = dataSnapshot.child("name").getValue().toString();
                         String phone = dataSnapshot.child("phone").getValue().toString();
                         String address = dataSnapshot.child("address").getValue().toString();
+                        String password = dataSnapshot.child("password").getValue().toString();
                         Picasso.get().load(image).into(profileImageView);
                         fullNameEditText.setText(name);
                         userPhoneEditText.setText(phone);
                         addressEditText.setText(address);
+                        passwordEditText.setText(password);
                     }
                 }
 

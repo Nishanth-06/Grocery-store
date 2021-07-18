@@ -43,6 +43,7 @@ public class LoginActivity extends AppCompatActivity {
         NotAdminLink = (TextView) findViewById(R.id.not_admin_panel_link);
         loadingBar = new ProgressDialog(this);
         chkBoxRememberMe = (CheckBox) findViewById(R.id.remember_me_chkb);
+
         Paper.init(this);
         LoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,6 +72,7 @@ public class LoginActivity extends AppCompatActivity {
                 parentDbName = "Users";
             }
         });
+
 
     }
     private void LoginUser()

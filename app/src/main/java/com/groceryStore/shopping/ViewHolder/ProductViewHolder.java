@@ -1,6 +1,5 @@
 package com.groceryStore.shopping.ViewHolder;
 
-
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
