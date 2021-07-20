@@ -9,7 +9,7 @@
         android:id="@+id/r5"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/design_default_color_primary_dark"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         >
@@ -26,6 +26,7 @@
             android:layout_centerVertical="true"
             android:padding="9dp"
             android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
 
             />
         <Button

@@ -69,7 +69,7 @@
             android:id="@+id/sugar_and_others"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/dry"
+            android:src="@drawable/meat2"
             />
 
         <ImageView
@@ -135,6 +135,7 @@
             />
 
     </LinearLayout>
+
 
     <Button
         android:id="@+id/check_orders_btn"

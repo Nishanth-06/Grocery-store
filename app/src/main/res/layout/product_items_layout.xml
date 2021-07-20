@@ -19,10 +19,9 @@
             android:layout_height="wrap_content"
             android:text="Product Name"
             android:textAlignment="center"
+            android:textColor="@color/white"
             android:textSize="20dp"
-            android:textStyle="bold"
-            android:textColor="@color/colorPrimary"
-            />
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/product_image"
@@ -40,21 +39,19 @@
             android:layout_below="@+id/product_image"
             android:text="Product Price"
             android:textAlignment="center"
-            android:textSize="18dp"
-            android:textColor="@color/colorPrimaryDark"
-            />
+            android:textColor="@color/white"
+            android:textSize="18dp" />
 
         <TextView
             android:id="@+id/product_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/product_price"
-            android:text="Product Description"
             android:layout_marginTop="2dp"
+            android:text="Product Description"
             android:textAlignment="center"
-            android:textSize="16dp"
-            android:textColor="@color/colorPrimaryDark"
-            />
+            android:textColor="@color/white"
+            android:textSize="16dp" />
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
