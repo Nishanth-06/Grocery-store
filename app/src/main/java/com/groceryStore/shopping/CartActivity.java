@@ -76,8 +76,9 @@ public class CartActivity extends AppCompatActivity{
             @Override
             protected void onBindViewHolder(@NonNull CartViewHolder holder, int position, @NonNull final Cart model) {
                 holder.txtProductQuantity.setText("Quantity = "+model.getQuantity());
-                holder.txtProductPrice.setText("Price = "+model.getPrice()+" Rs.");
+                holder.txtProductPrice.setText("Price = "+model.getPrice());
                 holder.txtProductName.setText(model.getPname());
+                System.out.println(model.getPrice());
                 int oneTyprProductTPrice = ((Integer.valueOf(model.getPrice())))* Integer.valueOf(model.getQuantity());
                 overTotalPrice = overTotalPrice + oneTyprProductTPrice;
 
